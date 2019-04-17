@@ -11,7 +11,10 @@ const input = props => {
 
   const submitHandler = text => {
     test.setText(text);
-    test.toggleResult();
+
+    if (!test.showResult) {
+      test.toggleResult();
+    }
   };
 
   return (
