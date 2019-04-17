@@ -1,0 +1,15 @@
+.Input {
+  display: flex;
+  flex-flow: column;
+}
+
+.Input input,
+.Input label {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.Input button {
+  width: fit-content;
+  margin: 5px auto;
+}
